@@ -6,9 +6,7 @@ edition = "2018"
 license = "MIT"
 
 [dependencies]
+bootloader = "0.5"
 
-[profile.dev]
-panic = "abort"
-
-[profile.release]
-panic = "abort"
+[package.metadata.bootimage]
+default-target = "x86_64-flandre_os.json"
