@@ -2,13 +2,13 @@
 Flandre OS Microkernel
 
 
-Add target in rustup:
+Prepare for cross-compiler:
 ```bash
-rustup target add thumbv7em-none-eabihf
+cargo install cargo-xbuild
 ```
 
 Build:
 ```bash
-cargo build --target thumbv7em-none-eabihf
+cargo xbuild --target x86_64-flandre_os.json
 ```
 
