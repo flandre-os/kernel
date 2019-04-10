@@ -3,5 +3,6 @@ name = "flandre_os_kernel"
 version = "0.1.0"
 authors = ["lws <chenkun_lws@126.com>"]
 edition = "2018"
+license = "MIT"
 
 [dependencies]
