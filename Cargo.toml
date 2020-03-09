@@ -6,7 +6,7 @@ edition = "2018"
 license = "MIT"
 
 [dependencies]
-bootloader = "0.6"
+bootloader = "0.8"
 
 [package.metadata.bootimage]
 default-target = "x86_64-flandre_os.json"
